@@ -1,0 +1,23 @@
+ *{margin: 0px}
+   
+ header{
+    background-color: rgb(32, 32, 121) ;
+    }
+.logofk{
+    margin-left: 200px;
+    background-color: aqua;
+    
+}
+nav{
+    
+    text-align: right;
+    background-color: aquamarine;
+    display: inline-block;
+    
+}
+    ul li{
+        display: inline-block;
+        background-color: beige;
+        
+    }
+        
