@@ -1,23 +1,61 @@
- *{margin: 0px}
+body{
+   margin: 0px;
+}
+header{
+   background-color: rgb(4, 40, 73);
+   height: 100px;
+   box-shadow: 1px 2px 3px rgb(2, 2, 2);
+   border-bottom-left-radius:50px;
+   border-bottom-right-radius:50px;
    
- header{
-    background-color: rgb(32, 32, 121) ;
-    }
-.logofk{
-    margin-left: 200px;
-    background-color: aqua;
-    
-}
-nav{
-    
-    text-align: right;
-    background-color: aquamarine;
-    display: inline-block;
-    
-}
-    ul li{
-        display: inline-block;
-        background-color: beige;
-        
-    }
-        
+
+   }
+      .logofk{
+         width: 160px;
+         height: 100px;
+         margin-left: 20%;
+      }
+   nav { 
+      width: 30%;
+      height: 100px;
+      position: absolute;
+      top: 0px;
+      margin-left: 100px;
+      display: inline-block;
+      }
+      ul{
+         width: 600px;
+         height: 100px;
+         margin-left: auto;
+         margin-right: auto;
+         list-style-type:none;
+         margin-top: 0px;
+         
+         }
+         li{
+            display: inline-block;
+            margin-top: 7%;
+            margin-left: 10px;
+            }
+            li a{
+            color: aliceblue;
+            text-decoration: none;
+            letter-spacing: 2px;
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+            a:hover{
+               background-color: rgb(17, 81, 179);
+               border-radius: 20px;
+               text-shadow: 2px 2px black;
+            }
+
+  main{
+   width: 900px;
+   margin-left: auto;
+   margin-right:auto;
+  }
+  footer{
+   
+  }
+      
