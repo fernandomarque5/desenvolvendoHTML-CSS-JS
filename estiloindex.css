@@ -2,60 +2,81 @@ body{
    margin: 0px;
 }
 header{
-   background-color: rgb(4, 40, 73);
+   display: flex;
+   justify-content:space-evenly;
+   align-items:center;
+   background-color: #0E759E;
    height: 100px;
-   box-shadow: 1px 2px 3px rgb(2, 2, 2);
-   border-bottom-left-radius:50px;
-   border-bottom-right-radius:50px;
-   
-
+   box-shadow: 1px 1px 5px rgb(2, 2, 2);
+   border-bottom-left-radius:30px;
+   border-bottom-right-radius:30px;
+   position: sticky;
+   top: 0px;
    }
       .logofk{
-         width: 160px;
          height: 100px;
-         margin-left: 20%;
+         flex-basis:120px ;
       }
-   nav { 
-      width: 30%;
+   nav{ 
+      display: flex;
+      width: 500px;
       height: 100px;
-      position: absolute;
-      top: 0px;
-      margin-left: 100px;
-      display: inline-block;
+      justify-content: flex-start;
+      align-items: center;
+      flex-basis: 50%;
       }
       ul{
-         width: 600px;
-         height: 100px;
-         margin-left: auto;
-         margin-right: auto;
          list-style-type:none;
-         margin-top: 0px;
-         
          }
          li{
             display: inline-block;
-            margin-top: 7%;
-            margin-left: 10px;
             }
             li a{
             color: aliceblue;
             text-decoration: none;
             letter-spacing: 2px;
-            padding: 20px;
+            padding: 30px;
             font-family: Arial, Helvetica, sans-serif;
             }
             a:hover{
-               background-color: rgb(17, 81, 179);
-               border-radius: 20px;
-               text-shadow: 2px 2px black;
+               background-color: #1294C7;
+               border-radius: 10px;
+               box-shadow: 0px 0px 2px black;
             }
-
   main{
    width: 900px;
    margin-left: auto;
    margin-right:auto;
   }
   footer{
+   width: 100%;
+   height: 150px;
+   background-color: rgba(0, 0, 0);
+   display: flex;
+   align-items: center;/*alinhamento vertical, quando se tem apenas o conteudo em uma linha*/
+   justify-content: center; /*alinhamento horizontal de conteudo*/
+   /* display: flex; por padrão tem a propriedade de NoWrap, não quebra linha, caso os filhos precisem*/
+   /*mas pode ser feito com a; "flex-wrap:wrap;" dessa forma podera quebrar linhas */
+   /*align-content; flex-start: alinha quando quando se tem mais de uma linha, e precisa esta com o flex-wrap;wrap, com quebra de linha*/
+   /*Flex-direction: serve para colocar em coluna, linha, coluna reversa, linha reversa;*/
+   /*Flex-basis: 100px, serve para pegar um elemento dentro do container, e aplicar uma largura se estiver em row, ou altura se estiver em column com um flex-direction*/
+   /*flex-grow; 1; vai pegar o espaço do inicio e fim, e aplicar em um unico elemento que eu selecionar*/
+   /*gap; 100px; cria um espaço entre os elementos, uma especié de margin.*/
+   /*order; 0; por padrão é 0, e cada numero que se coloca, 1,2,3 é a ordem que vai mudar dos elementos*/
+   /*align-self: flex-end, start; serve para alinhar cada elemento próprio, e não o container*/
+
+      }
+      .rodapé{
+         width: 350px;
+         height: 100px;
+         color: white;
+         text-align:center;
+         text-decoration:up ;
+         font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
+         letter-spacing: 3px;
+        
+      }
    
-  }
+     
+  
       
