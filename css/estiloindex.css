@@ -1,0 +1,167 @@
+body{
+   margin: 0px;
+}
+header{
+   display: flex;
+   justify-content:center;
+   height: 100px;
+   margin: 0px;
+   background-color: rgb(0, 0, 0);
+   position:sticky;
+   top:0px;
+   }
+   .header__logofk{
+      height: 100px;
+      width: 150px;
+      position: absolute;
+      left: 20vw;
+      }
+      .nav__containerUl{
+         display: flex;/*por padrão mostra os elementos em Row*/
+         list-style-type:none;
+         align-items: center;
+         height: 100px;
+         margin: 0px;
+         }
+         .nav__itensUl{
+         color: aliceblue;
+         text-decoration: none;
+         letter-spacing: 2px;
+         padding: 35px;
+         font-family: Arial, Helvetica, sans-serif;
+         margin-right: 5px;
+         }
+         .nav__itensUl:hover{
+            border-bottom: 5px solid rgb(99, 178, 252);
+             transition-delay: 0.1s;
+         }
+
+main{
+   background-color: rgb(196, 193, 193);
+}         
+.main__tituloprincipal{
+   text-align: center;
+   margin: 0px;
+   padding-top:30px ;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-transform: uppercase;
+}
+.main__container-ServicesCards{
+   width: 70vw;
+   
+   
+   padding:16px;
+   margin-left: auto;
+   margin-top: 0px;
+   margin-right: auto;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 20px;
+   row-gap: 20px;  
+   }
+   .main__itens-ServicesCards{
+      background-color: rgb(0, 0, 0);
+      display: flex;
+      flex-direction: column;
+      width:300px;
+      
+      align-items:center;
+      justify-content: space-evenly;
+      background-repeat: no-repeat;
+      background-size:contain;
+      border-radius: 10px;
+      box-shadow: 0px 2px 10px black;
+      margin: 0px;
+      }
+      .main__img-ServicesCards{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid black;
+      padding: 3px;
+      margin-top: 100px;
+      background-color: aliceblue;
+      }
+         #img-ServicesCardsmanutencoes{
+            background-image: url(../imagensIndex/imgsServicesCards/background-manutenção.png);
+         }#img-ServicesCardsconsultorias{
+            background-image: url(../imagensIndex/imgsServicesCards/background-consultoria.png);
+         }#img-ServicesCardsHelpdesk{
+            background-image: url(../imagensIndex/imgsServicesCards/background-helpdesk.png);
+         }#img-ServicesCardsprodutos{
+            background-image: url(../imagensIndex/imgsServicesCards/background-produtos.png);
+         }
+      .main__titulos-ServicesCards{
+      font-size: 32px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      letter-spacing: 2px;
+      color: aliceblue;
+      margin:0px;
+      }
+      .main__containerUl-ServicesCards{
+      line-height: 32px;
+      width: 250px;
+      color: aliceblue;
+      background-color: rgba(73, 73, 73, 0.616);
+      height: 200px;
+      display: flex;
+      border-radius: 10px;
+      box-shadow: 0px 0px 5px rgba(141, 141, 141, 0.541);
+      flex-direction: column;
+      justify-content: space-evenly;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: larger;
+      }
+      .main__links-ServicesCards{
+      text-decoration:none;
+      padding: 15px;
+      width: 270px;
+      color: aliceblue;
+      font-size: 25px;
+      letter-spacing: 3px;
+      text-align: center;
+      }
+      .main__links-ServicesCards:hover{
+         background-color: rgb(16, 177, 177);
+         color: black;
+         border-bottom-left-radius: 10px;
+         border-bottom-right-radius: 10px;
+      }
+  .main__02{
+   width: 800px;
+   margin-left: auto;
+   margin-right: auto; 
+   background-color: aliceblue;
+  }    
+  footer{
+   width: 100%;
+   height: 150px;
+   background-color: rgba(0, 0, 0);
+   display: flex;
+   align-items: center;/*alinhamento vertical, quando se tem apenas o conteudo em uma linha*/
+   justify-content: center; /*alinhamento horizontal de conteudo*/
+   /* display: flex; por padrão tem a propriedade de NoWrap, não quebra linha, caso os filhos precisem*/
+   /*mas pode ser feito com a; "flex-wrap:wrap;" dessa forma podera quebrar linhas */
+   /*align-content; flex-start: alinha quando quando se tem mais de uma linha, e precisa esta com o flex-wrap;wrap, com quebra de linha*/
+   /*Flex-direction: serve para colocar em coluna, linha, coluna reversa, linha reversa;*/
+   /*Flex-basis: 100px, serve para pegar um elemento dentro do container, e aplicar uma largura se estiver em row, ou altura se estiver em column com um flex-direction*/
+   /*flex-grow; 1; vai pegar o espaço do inicio e fim, e aplicar em um unico elemento que eu selecionar*/
+   /*gap; 100px; cria um espaço entre os elementos, uma especié de margin.*/
+   /*order; 0; por padrão é 0, e cada numero que se coloca, 1,2,3 é a ordem que vai mudar dos elementos*/
+   /*align-self: flex-end, start; serve para alinhar cada elemento próprio, e não o container*/
+      }
+      .rodapé{
+         width: 350px;
+         height: 100px;
+         color: white;
+         text-align:center;
+         text-decoration:up ;
+         font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
+         letter-spacing: 3px;   
+      }
+   
+     
+  
+      

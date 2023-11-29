@@ -2,73 +2,86 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>FKTech | Tecnology</title>
-        <link rel="stylesheet" href="estiloindex.css">
+
+        <link rel="stylesheet" href="css/estiloindex.css">
+        <link rel="stylesheet" href="css/mediascreen414-520.css">
+        <link rel="stylesheet" href="css/mediascreen320-413.css">
+        
+        
         <link rel="shortcut icon" href="imagensIndex/favicon/favicon.ico" type="image/x-icon">
     </head>
     <body>
             <header>
-                <a id="link-da-logo" href="index.html"><img src="imagensIndex/fTech.png" class="header__logofk"></a> 
-                <nav>
-                    <ul class="nav__containerUl">
+                <a id="link-da-logo" href="index.html"><img src="imgLogoFK/fTech.png" class="header__logofk"></a> 
+                <nav class="navBarPrincipal" >
+                    <ul class="nav__containerUl1" >
                         <li><a class="nav__itensUl" href="#">Home</a></li>
                         <li><a class="nav__itensUl" href="#">Contato</a></li>
                     </ul>
                 </nav>
             </header>
-                <main class="main__01">
-                    <h1 class="main__tituloprincipal">Conheça os produtos e serviços da FKTech</h1>
-                    <div class="main__container-ServicesCards">
-                        
-                        <div class="main__itens-ServicesCards" id="img-ServicesCardsmanutencoes">
-                            <img class="main__img-ServicesCards" src="imagensIndex/imgLogoServicescards/imgmanutencao.png" alt="img-notebook">
-                            <h1 class="main__titulos-ServicesCards" >Manutenções</h1>
-                            <ul class="main__containerUl-ServicesCards">
-                                <li>Notebooks</li>
-                                <li>Desktops</li>
-                                <li>Impressoras</li>
-                            </ul>
-                            <a class="main__links-ServicesCards" href="#">Acesse</a>
+            <nav class="navBarMobile">
+                <ul class="nav__containerUlmobile">
+                    <li><a class="nav__itensUlmobile" href="#">Home</a></li>
+                    <li><a class="nav__itensUlmobile" href="#">Contato</a></li>
+                </ul>
+            </nav>
+                <section>
+                    <main class="main__01">
+                        <h1 class="main__tituloprincipal">Conheça os produtos e serviços da FKTech</h1>
+                        <div class="main__container-ServicesCards">
+                    
+                            <div class="main__itens-ServicesCards" id="img-ServicesCardsmanutencoes">
+                                <img class="main__img-ServicesCards" src="imagensIndex/imgLogoServicescards/imgmanutencao.png" alt="img-notebook">
+                                <h1 class="main__titulos-ServicesCards" >Manutenções</h1>
+                                <ul class="main__containerUl-ServicesCards">
+                                    <li>Notebooks</li>
+                                    <li>Desktops</li>
+                                    <li>Impressoras</li>
+                                </ul>
+                                <a class="main__links-ServicesCards" href="#">Acesse</a>
+                            </div>
+                            <div class="main__itens-ServicesCards" id="img-ServicesCardsconsultorias">
+                                <img class="main__img-ServicesCards" src="imagensIndex/imgLogoServicescards/imgconsultoria.png" alt="img-consultoria">
+                                <h1 class="main__titulos-ServicesCards">Consultorias</h1>
+                                <ul class="main__containerUl-ServicesCards">
+                                    <li>Dispositivos IoT</li>
+                                    <li>Ambiente Virtual de Aprendizagem</li>
+                                    <li>Tecnologias Educacionais</li>
+                                </ul>
+                                <a class="main__links-ServicesCards" href="#">Acesse</a>
+                            </div>
+                            <div class="main__itens-ServicesCards" id="img-ServicesCardsHelpdesk">
+                                <img class="main__img-ServicesCards"  src="imagensIndex/imgLogoServicescards/imghelpdesk.png" alt="img-helpdesk">
+                                <h1 class="main__titulos-ServicesCards" >HelpDesk</h1>
+                                <ul class="main__containerUl-ServicesCards">
+                                    <li>Acesso Remoto</li>
+                                    <li>Instalção de Programas</li>
+                                    <li>Transferências de arquivos</li>
+                                    <li>Soluções em dispositivos</li>
+                                </ul>
+                                <a class="main__links-ServicesCards" href="#">Acesse</a>
+                            </div>
+                            <div class="main__itens-ServicesCards" id="img-ServicesCardsprodutos">
+                                <img class="main__img-ServicesCards" src="imagensIndex/imgLogoServicescards/imgprodutos.png" alt="img-protudos">
+                                <h1 class="main__titulos-ServicesCards">Produtos</h1>
+                                <ul class="main__containerUl-ServicesCards">
+                                    <li>Mouse</li>
+                                    <li>Teclado</li>
+                    
+                                    <li>Fonte ATX</li>
+                                    <li>Gabinetes</li>
+                                    <li>Memórias DDR</li>
+                                </ul>
+                                <a class="main__links-ServicesCards" href="#">Acesse</a>
+                            </div>
                         </div>
-                        <div class="main__itens-ServicesCards" id="img-ServicesCardsconsultorias">
-                            <img class="main__img-ServicesCards" src="imagensIndex/imgLogoServicescards/imgconsultoria.png" alt="img-consultoria">
-                            <h1 class="main__titulos-ServicesCards">Consultorias</h1>
-                            <ul class="main__containerUl-ServicesCards">
-                                <li>Dispositivos IoT</li>
-                                <li>Ambiente Virtual de Aprendizagem</li>
-                                <li>Tecnologias Educacionais</li>
-                            </ul>
-                            <a class="main__links-ServicesCards" href="#">Acesse</a>
-                        </div>
-                        <div class="main__itens-ServicesCards" id="img-ServicesCardsHelpdesk">
-                            <img class="main__img-ServicesCards"  src="imagensIndex/imgLogoServicescards/imghelpdesk.png" alt="img-helpdesk">
-                            <h1 class="main__titulos-ServicesCards" >HelpDesk</h1>
-                            <ul class="main__containerUl-ServicesCards">
-                                <li>Acesso Remoto</li>
-                                <li>Instalção de Programas</li>
-                                <li>Transferências de arquivos</li>
-                                <li>Soluções em dispositivos</li>
-                            </ul>
-                            <a class="main__links-ServicesCards" href="#">Acesse</a>
-                        </div>
-                        <div class="main__itens-ServicesCards" id="img-ServicesCardsprodutos">
-                            <img class="main__img-ServicesCards" src="imagensIndex/imgLogoServicescards/imgprodutos.png" alt="img-protudos">
-                            <h1 class="main__titulos-ServicesCards">Produtos</h1>
-                            <ul class="main__containerUl-ServicesCards">
-                                <li>Mouse</li>
-                                <li>Teclado</li>
-                            
-                                <li>Fonte ATX</li>
-                                <li>Gabinetes</li>
-                                <li>Memórias DDR</li>
-                            </ul>
-                            <a class="main__links-ServicesCards" href="#">Acesse</a>
-                        </div>
-                    </div>
-                </main>
+                    </main>
+                </section>
                 <main class="main__02">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nemo ipsum distinctio omnis corrupti, quibusdam sed nisi fugiat aliquam at inventore cumque facere harum eos a deleniti earum provident eum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo doloribus tempore laboriosam, sit cumque beatae eligendi quibusdam totam corporis error unde sunt dignissimos veritatis enim dolores earum. Ut, et?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit adipisci error libero quis magnam! Temporibus sint, accusantium delectus accusamus officiis fugiat, ipsum modi deserunt doloremque iure voluptas itaque maiores <enim class="lo"></enim></p>
+                    
                 </main>
             <footer>
                 <div class="rodapé">
