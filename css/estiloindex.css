@@ -35,7 +35,6 @@ header{
             border-bottom: 5px solid rgb(99, 178, 252);
              transition-delay: 0.1s;
          }
-
 main{
    background-color: rgb(196, 193, 193);
 }         
@@ -48,8 +47,6 @@ main{
 }
 .main__container-ServicesCards{
    width: 70vw;
-   
-   
    padding:16px;
    margin-left: auto;
    margin-top: 0px;
