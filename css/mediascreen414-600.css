@@ -1,4 +1,4 @@
-@media screen and (min-width:414px) and (max-width:520px){
+@media screen and (min-width:414px) and (max-width:600px){
 
    body{
       margin: 0px;
@@ -9,7 +9,6 @@
       position:sticky;
       top:0px;
       }
-      
       .header__logofk{
          position: absolute;
          left: 35vw;
@@ -36,8 +35,6 @@
          padding: 0px;
          position: sticky;
          top: 80px;
-   
-         
          }
          .nav__containerUlmobile{
          display: flex;
@@ -45,10 +42,8 @@
          list-style-type: none;
          background-color: rgb(0, 0, 0);
          align-items: center;
-         
-         width: 90%;
+         width: 99%;
          height: 60px;
-         margin: 0px auto;
          }
          .nav__itensUlmobile{
             text-decoration: none;
@@ -56,11 +51,11 @@
             letter-spacing: 2px;
             font-family: Arial, Helvetica, sans-serif;
             padding: 15px;
-            
          }
          .nav__itensUlmobile:hover{
          border-bottom: 5px solid rgb(99, 178, 252);
          transition-delay: 0.1s;
+         color: rgb(99, 178, 252);
          }
    main{
       background-color: rgb(196, 193, 193);
@@ -84,6 +79,7 @@
       flex-wrap: wrap;
       gap: 20px;
       row-gap: 20px;  
+      
       }
       .main__itens-ServicesCards{
          background-color: rgb(0, 0, 0);
@@ -126,7 +122,7 @@
          }
          .main__containerUl-ServicesCards{
          line-height: 32px;
-         width: 250px;
+         width: 90%;
          color: aliceblue;
          background-color: rgba(73, 73, 73, 0.616);
          height: 200px;
@@ -134,6 +130,7 @@
          border-radius: 10px;
          box-shadow: 0px 0px 5px rgba(141, 141, 141, 0.541);
          flex-direction: column;
+         box-sizing: border-box;
          justify-content: space-evenly;
          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
          font-size: larger;

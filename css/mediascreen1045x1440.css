@@ -1,75 +1,56 @@
-@media screen and (min-width:320px) and (max-width:413px){
-
+@media screen and (min-width:1045px) and (max-width:1440px){
 body{
    margin: 0px;
 }
 header{
+   display: flex;
+   justify-content:center;
    height: 80px;
+   margin: 0px;
    background-color: rgb(0, 0, 0);
    position:sticky;
    top:0px;
    }
-   
    .header__logofk{
-      position: absolute;
-      left: 35vw;
       height: 80px;
-      width: 120px;
-      
+      width: 100px;
+      position: absolute;
+      left: 20vw;
       }
-      /*.imgBtnMenu{
-         height: 40px;
-         margin-right: 10%;
-         
-      }*/
-   .navBarPrincipal{
-   display: none;
-   }
-      .nav__containerUl1{
-      display: none;
+      .navBarMobile{
+         display: none;
       }
-   .navBarMobile{
-      display: flex;/*por padrão mostra os elementos em Row*/
-      align-items: center;
-      height: 60px;
-      margin: 0px;
-      padding: 0px;
-      position: sticky;
-      top: 80px;
-      }
-      .nav__containerUlmobile{
-      display: flex;
-      justify-content:space-around;
-      list-style-type: none;
-      background-color: rgb(0, 0, 0);
-      align-items: center;
-      width: 99%;
-      height: 60px;
-      }
-      .nav__itensUlmobile{
-         text-decoration: none;
+      .nav__containerUlprincipal{
+         display: flex;/*por padrão mostra os elementos em Row*/
+         list-style-type:none;
+         align-items: center;
+         height: 80px;
+         margin: 0px;
+         }
+         .nav__itensUlprincipal{
          color: aliceblue;
+         text-decoration: none;
          letter-spacing: 2px;
+         padding: 25px;
          font-family: Arial, Helvetica, sans-serif;
-         padding: 15px;
-      }
-      .nav__itensUlmobile:hover{
-      border-bottom: 5px solid rgb(99, 178, 252);
-      transition-delay: 0.1s;
-      color: rgb(99, 178, 252);
-      }
+         margin-right: 5px;
+         }
+         .nav__itensUlprincipal:hover{
+            border-bottom: 5px solid rgb(99, 178, 252);
+             transition-delay: 0.1s;
+         }
 main{
    background-color: rgb(196, 193, 193);
 }         
 .main__tituloprincipal{
    text-align: center;
    margin: 0px;
-   padding-top:30px ;
+   padding-top:10px ;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    text-transform: uppercase;
 }
 .main__container-ServicesCards{
-   width: 70vw;
+   width: 90vw;
    padding:16px;
    margin-left: auto;
    margin-top: 0px;
@@ -85,7 +66,7 @@ main{
       background-color: rgb(0, 0, 0);
       display: flex;
       flex-direction: column;
-      width:300px;
+      width:220px;
       align-items:center;
       justify-content: space-evenly;
       background-repeat: no-repeat;
@@ -95,12 +76,12 @@ main{
       margin: 0px;
       }
       .main__img-ServicesCards{
-      width: 100px;
-      height: 100px;
+      width: 50px;
+      height: 50px;
       border-radius: 50%;
       border: 3px solid black;
       padding: 3px;
-      margin-top: 100px;
+      margin-top: 80px;
       background-color: aliceblue;
       }
          #img-ServicesCardsmanutencoes{
@@ -113,15 +94,15 @@ main{
             background-image: url(../imagensIndex/imgsServicesCards/background-produtos.png);
          }
       .main__titulos-ServicesCards{
-      font-size: 32px;
+      font-size: 16px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       letter-spacing: 2px;
       color: aliceblue;
       margin:0px;
       }
       .main__containerUl-ServicesCards{
-      line-height: 32px;
-      width: 85%;
+      line-height: 16px;
+      width: 170px;
       color: aliceblue;
       background-color: rgba(73, 73, 73, 0.616);
       height: 200px;
@@ -129,17 +110,16 @@ main{
       border-radius: 10px;
       box-shadow: 0px 0px 5px rgba(141, 141, 141, 0.541);
       flex-direction: column;
-      box-sizing: border-box;
       justify-content: space-evenly;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-size: larger;
+      font-size: 16px;
       }
       .main__links-ServicesCards{
       text-decoration:none;
       padding: 15px;
-      width: 270px;
+      width: 190px;
       color: aliceblue;
-      font-size: 25px;
+      font-size: 16px;
       letter-spacing: 3px;
       text-align: center;
       }
@@ -149,8 +129,12 @@ main{
          border-bottom-left-radius: 10px;
          border-bottom-right-radius: 10px;
       }
-    
-  
+  .main__02{
+   width: 800px;
+   margin-left: auto;
+   margin-right: auto; 
+   background-color: aliceblue;
+  }    
   footer{
    width: 100%;
    height: 150px;
